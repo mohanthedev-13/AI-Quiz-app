@@ -1,0 +1,5 @@
+openai
+streamlit
+python-dotenv
+google.generativeai
+sqlite3
