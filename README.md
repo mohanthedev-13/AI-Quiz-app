@@ -22,6 +22,15 @@ Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
+### To integrate Gemini AI:
+
+Obtain an API key from Gemini AI (if required).
+Add the key to the application configuration:
+Create a .env file in the root directory:
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
 ### How to Run a sample response from quiz generator without authentication
 Start the Streamlit application:
 
@@ -38,11 +47,3 @@ streamlit run quizapp.py
 ```
 Open your web browser and navigate to the URL displayed in the terminal (default is http://localhost:8501).
 
-## To integrate Gemini AI:
-
-Obtain an API key from Gemini AI (if required).
-Add the key to the application configuration:
-Create a .env file in the root directory:
-```
-GEMINI_API_KEY=your_api_key_here
-```
